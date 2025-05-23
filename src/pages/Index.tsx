@@ -16,10 +16,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-violet-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">Л</span>
+              <span className="text-white font-bold text-lg">T</span>
             </div>
             <span className="text-xl font-semibold text-gray-800">
-              Ваш Логотип
+              TeamLink
             </span>
           </div>
           <nav className="hidden md:flex space-x-8">
@@ -49,21 +49,22 @@ const Index = () => {
       <section className="px-6 py-20">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            Добро пожаловать в
-            <span className="text-violet-600 block mt-2">Будущее Бизнеса</span>
+            В мире, где все меняется с
+            <span className="text-violet-600 block mt-2">
+              космической скоростью 🚀
+            </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
-            Мы предоставляем инновационные решения для роста вашего бизнеса.
-            Профессиональный подход, современные технологии и результат, который
-            превосходит ожидания.
+            TeamLink — ваш надежный HR-партнер с 2020 года 🔥 Мы знаем, как
+            найти тех, кто сделает ваш бизнес еще круче! 🙌
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <Button
               size="lg"
               className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-3"
             >
-              <Icon name="Rocket" className="mr-2" />
-              Начать проект
+              <Icon name="Users" className="mr-2" />
+              Найти таланты
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-3">
               <Icon name="Play" className="mr-2" />
@@ -78,10 +79,11 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Наши преимущества
+              Что мы предлагаем 🎯
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Почему тысячи клиентов выбирают нас для реализации своих проектов
+              Удобные пакетные решения, чтобы все ваши HR-задачи решались легко
+              и без головной боли
             </p>
           </div>
 
@@ -89,14 +91,14 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 bg-violet-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Zap" className="w-8 h-8 text-violet-600" />
+                  <Icon name="UserSearch" className="w-8 h-8 text-violet-600" />
                 </div>
-                <CardTitle>Быстрый результат</CardTitle>
+                <CardTitle>Подбор персонала 👨‍💻👩‍💼</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center">
-                  Запускаем проекты в кратчайшие сроки благодаря отлаженным
-                  процессам и опытной команде
+                  Найдем именно тех, кто нужен вашему бизнесу. От линейных
+                  сотрудников до руководителей — только лучшие!
                 </CardDescription>
               </CardContent>
             </Card>
@@ -104,14 +106,17 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Shield" className="w-8 h-8 text-green-600" />
+                  <Icon
+                    name="ClipboardCheck"
+                    className="w-8 h-8 text-green-600"
+                  />
                 </div>
-                <CardTitle>Надёжность</CardTitle>
+                <CardTitle>Кадровый аудит 📊</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center">
-                  Гарантируем стабильность и безопасность всех решений с
-                  долгосрочной поддержкой
+                  Разберем все процессы и поможем настроить идеальную систему
+                  управления персоналом
                 </CardDescription>
               </CardContent>
             </Card>
@@ -119,14 +124,14 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Users" className="w-8 h-8 text-blue-600" />
+                  <Icon name="TrendingUp" className="w-8 h-8 text-blue-600" />
                 </div>
-                <CardTitle>Команда экспертов</CardTitle>
+                <CardTitle>Оценка персонала 🚀</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center">
-                  Профессионалы с многолетним опытом в различных отраслях и
-                  технологиях
+                  Выявим сильные стороны ваших сотрудников и поможем им стать
+                  еще эффективнее!
                 </CardDescription>
               </CardContent>
             </Card>
