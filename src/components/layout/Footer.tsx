@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="w-10 h-10 bg-violet-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">Л</span>
           </div>
-          <span className="text-xl font-semibold">Ваша Компания</span>
+          <span className="text-xl font-semibold">TeamLink</span>
         </div>
         <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
           Создаем будущее вместе с вами. Инновации, качество и надёжность —
